@@ -1,0 +1,25 @@
+body {
+  background-color: #c0a2e5;
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  color: #035716;
+}
+
+table {
+  border: 2px solid red;
+  text-align: center;
+}
+
+table thead {
+  background-color: yellow;
+}
+
+table tr td {
+  border: 2px solid red;
+  padding: 10px;
+}
