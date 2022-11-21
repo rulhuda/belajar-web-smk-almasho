@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="./main.js" defer></script>
-  <title>Document</title>
+  <title>Form Input Data Siswa SMK Al-Malikus Sholeh</title>
 </head>
 <body>
-  <h1>Form Pendaftaran Siswa SMK Al-Malikus Sholeh</h1>
+  <h1>Form Input Data Siswa SMK Al-Malikus Sholeh</h1>
   <form id="form-pendaftaran">
     <label for="nama">Nama Lengkap</label>
     <br>
@@ -17,6 +17,10 @@
     <label for="umur">Umur</label>
     <br>
     <input type="number" id="umur" placeholder="Masukkan umur" required>
+    <br>
+    <label for="kelas">Kelas</label>
+    <br>
+    <input type="number" id="kelas" placeholder="Masukkan kelas" required>
     <br>
     <label for="jk">Jenis Kelamin</label>
     <br>
@@ -34,17 +38,24 @@
 
   <br>
   
-  <table border="1">
-    <tr>
-      <td>Nama Lengkap</td>
-      <td>Umur</td>
-      <td>Jenis Kelamin</td>
-    </tr>
-    <tr>
-      <td id="nama-output">-</td>
-      <td id="umur-output">-</td>
-      <td id="jk-output">-</td>
-    </tr>
+  <table id="tabelData" border="1">
+    <thead>
+      <tr>
+        <td>Nama Lengkap</td>
+        <td>Umur</td>
+        <td>Jenis Kelamin</td>
+        <td>Kelas</td>
+      </tr>
+    </thead>
+
+    <tbody id="bodyData">
+      <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+    </tbody>
   </table>
 </body>
 </html>
